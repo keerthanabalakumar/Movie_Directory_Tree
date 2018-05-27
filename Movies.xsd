@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="Movies">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Movie" maxOccurs="unbounded" minOccurs="10">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Title">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:int" name="Runtime" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+        <xs:element type="xs:string" name="Genre"/>
+              <xs:element name="Director" maxOccurs="unbounded" >
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name">
+                      
+                      <xs:complexType>
+                        
+                        <xs:sequence>
+                      <xs:element type="xs:string" name="First"/>
+                      <xs:element type="xs:string" name="Last"/>
+
+                        </xs:sequence>
+                        <xs:attribute name="High-ratedmovie" type="xs:string" use="optional"/>
+                    </xs:complexType>
+                    </xs:element>  
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="Studio"/>
+              <xs:element type="xs:int" name="Year"/>
+            </xs:sequence>
+            <xs:attribute name="Rating" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

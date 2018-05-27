@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Movies>
+  <Movie Rating="PG-13">
+    <Title Runtime="195">Titanic</Title>
+    <Genre>Drama</Genre>
+    <Director>
+      <Name High-ratedmovie="Avatar">
+        <First>James</First>
+        <Last>Cameron</Last>
+      </Name>
+    </Director>
+    <Studio>Paramount Pictures</Studio>
+    <Year>1997</Year>
+  </Movie>
+  <Movie Rating="R">
+    <Title Runtime="114">The Foreigner</Title>
+    <Genre>Action thriller</Genre>
+    <Director>
+      <Name High-ratedmovie="Casino Royale">
+        <First>Martin</First>
+        <Last>Campbell</Last>
+      </Name>
+    </Director>
+    <Studio>Wanda Pictures</Studio>
+    <Year>2017</Year>
+  </Movie>
+  <Movie Rating="G">
+    <Title>Toy Story</Title>
+    <Genre>Comedy</Genre>
+    <Director>
+      <Name High-ratedmovie="Beauty and Beast">
+        <First>John</First>
+        <Last>Lasseter</Last>
+      </Name>
+    </Director>
+    <Studio>Walt Disney Pictures</Studio>
+    <Year>1995</Year>
+  </Movie>
+  <Movie Rating="R">
+    <Title Runtime="115">American Made</Title>
+    <Genre>Biological Crime</Genre>
+    <Director>
+      <Name High-ratedmovie="Swingers">
+        <First>Doung</First>
+        <Last>Liman</Last>
+      </Name>
+    </Director>
+    <Studio>Imagine Entertainment</Studio>
+    <Year>2017</Year>
+  </Movie>
+  <Movie Rating="G">
+    <Title Runtime="221">Gone with the wind</Title>
+    <Genre>Romance</Genre>
+    <Director>
+      <Name High-ratedmovie="The Wizard of Oz">
+        <First>Victor</First>
+        <Last>Fleming</Last>
+      </Name>
+    </Director>
+    <Studio>Selznick International Pictures</Studio>
+    <Year>1939</Year>
+  </Movie>
+  <Movie Rating="G">
+    <Title Runtime="111">Ratatouille</Title>
+    <Genre>Comedy</Genre>
+    <Director>
+      <Name High-ratedmovie="The incredibles">
+        <First>Brad</First>
+        <Last>Bird</Last>
+      </Name>
+    </Director>
+    <Director>
+      <Name High-ratedmovie="Ratatouille">
+        <First>Jan</First>
+        <Last>Pinkava</Last>
+      </Name>
+    </Director>
+    <Studio>Pixar Animation Studio</Studio>
+    <Year>2007</Year>
+  </Movie>
+  <Movie Rating="PG">
+    <Title>Star Wars</Title>
+    <Genre>Fantasy</Genre>
+    <Director>
+      <Name>
+        <First>George</First>
+        <Last>Lucas</Last>
+      </Name>
+    </Director>
+    <Studio>20th Century Fox</Studio>
+    <Year>1977</Year>
+  </Movie>
+  <Movie Rating="PG-13">
+    <Title Runtime="106">Dunkirk</Title>
+    <Genre>Thriller</Genre>
+    <Director>
+      <Name High-ratedmovie="Memento">
+        <First>Christopher</First>
+        <Last>Nolan</Last>
+      </Name>
+    </Director>
+    <Studio>Warner Bros Pictures</Studio>
+    <Year>2017</Year>
+  </Movie>
+  <Movie Rating="PG-13">
+    <Title>The Mummy</Title>
+    <Genre>Action</Genre>
+    <Director>
+      <Name>
+        <First>Alex</First>
+        <Last>Kurtzman</Last>
+      </Name>
+    </Director>
+    <Studio>Dark Universe</Studio>
+    <Year>2017</Year>
+  </Movie>
+  <Movie Rating="PG">
+    <Title Runtime="124">A Canterbury Tale</Title>
+    <Genre>Drama</Genre>
+    <Director>
+      <Name High-ratedmovie="The Life and Death of Colonel Blimp">
+        <First>Michael</First>
+        <Last>Powell</Last>
+      </Name>
+    </Director>
+    <Director>
+      <Name High-ratedmovie=" A Matter of Life and Death">
+        <First>Emeric</First>
+        <Last>Pressburger</Last>
+      </Name>
+    </Director>
+    <Studio>General Film Distributors Eagle Lion Films</Studio>
+    <Year>1944</Year>
+  </Movie>
+</Movies>
